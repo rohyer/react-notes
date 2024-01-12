@@ -1,0 +1,20 @@
+.nav {
+  width: 250px;
+  height: calc(100vh - 75px);
+  background-color: #EEE;
+  padding: 20px 0;
+}
+
+nav ul li a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 18px;
+  background-color: #DDD;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+nav ul li a svg {
+  margin-right: 15px;
+}
